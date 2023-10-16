@@ -14,12 +14,12 @@ pip install pytube
 
 1. Coloca las URLs de los videos de YouTube que desees descargar en un archivo de texto llamado lista_urls.txt, una URL por línea.
 
-2. Abre el archivo descargar_musica.py y modifica la variable ruta_descarga para especificar la carpeta donde deseas guardar las descargas.
+2. Abre el archivo download_music.py y modifica la variable ruta_descarga para especificar la carpeta donde deseas guardar las descargas.
 
-3. Ejecuta el script descargar_musica.py:
+3. Ejecuta el script download_music.py:
 
 ```bash
-python descargar_musica.py
+python download_music.py
 ```
 
 El script leerá las URLs del archivo lista_urls.txt, descargará el audio de cada video de YouTube y eliminará la URL del archivo una vez completada la descarga.
