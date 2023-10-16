@@ -2,10 +2,10 @@ from pytube import YouTube
 import os
 
 # Definir la ruta al archivo de texto con las URL
-archivo_url = "C:/KristiancDev/Musica/ListaCanciones.txt"
+archivo_url = "lista_urls.txt"
 
 # Definir la ruta de la carpeta de descarga
-ruta_descarga = "C:/KristiancDev/Musica/"
+ruta_descarga = "tu/ruta/de/descarga"
 
 def descargar_video(url):
     try:
